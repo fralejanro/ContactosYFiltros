@@ -97,6 +97,7 @@ public class MainWindow extends JFrame {
 		setLayout(null);
 		setSize(400,360);
 		setResizable(false);
+		setDefaultCloseOperation(EXIT_ON_CLOSE);
 		setTitle("Generador");
 		
 		jBTCargar = new JButton("Cargar Archivo");
